@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--react.js是react的核心库-->
+    <script src="../build/react.js" charset="utf-8"></script>
+    <!--react-dom.js的作用是提供与DOM相关的功能-->
+    <script src="../build/react-dom.js" charset="utf-8"></script>
+    <!--browser.min.js的作用是将JSX语法转换为JavaScript语法-->
+    <script src="../build/browser.min.js" charset="utf-8"></script>
+</head>
+<body>
+<!--React渲染的模板内容会插入到这个DOM节点中，作为一个容器-->
+<div id="container"></div>
+</body>
+<!--我们做React开发时，其实是用JSX语法来开发的-->
+<!--在React开发中，使用JSX,跟JavaScript不兼容，在使用JSX的地方，要设置type:text/babel-->
+<!--babel是一个转换编译器，ES6转成可以在浏览器中运行的代码-->
+<script type="text/babel">
+    /*
+        创建一个组件类，用于输出Hello React
+        1. React中创建的组件类以大写字母开头，要遵守驼峰命名法
+        2. 在React中使用React.createClass方法创建一个组件类
+        3. 核心代码：每个组件类都必须实现自己的render方法，输出定义好的组件模板。返回值：null、false、组件模板
+        4. 注意：组件类只能包含一个顶层标签
+     */
+    var HelloMessage = React.createClass({
+        render: function () {
+            return <h1>Hello React</h1>;
+        }
+    });
+
+    ReactDOM.render(
+        //在模板中插入<HelloMessage/>会自动生成一个实例
+      <HelloMessage/>,
+      document.getElementById("container")
+    );
+</script>
+</html>
