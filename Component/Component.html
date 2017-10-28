@@ -9,6 +9,11 @@
     <script src="../build/react-dom.js" charset="utf-8"></script>
     <!--browser.min.js的作用是将JSX语法转换为JavaScript语法-->
     <script src="../build/browser.min.js" charset="utf-8"></script>
+    <style>
+        .pStyle {
+            font-size:20px;
+        }
+    </style>
 </head>
 <body>
 <!--React渲染的模板内容会插入到这个DOM节点中，作为一个容器-->
@@ -25,7 +30,7 @@
         3. 核心代码：每个组件类都必须实现自己的render方法，输出定义好的组件模板。返回值：null、false、组件模板
         4. 注意：组件类只能包含一个顶层标签
      */
-    var HelloMessage = React.createClass({
+    /*var HelloMessage = React.createClass({
         render: function () {
             return <h1>Hello React</h1>;
         }
@@ -35,6 +40,48 @@
         //在模板中插入<HelloMessage/>会自动生成一个实例
       <HelloMessage/>,
       document.getElementById("container")
-    );
+    );*/
+
+    /*
+        设置组件的样式，讲解三种：
+        1. 内联样式
+        2. 对象样式
+        3. 选择器样式
+
+        注意：在React和HTML5中设置样式的书写格式是有区别的
+        1. HTML5以;结尾
+           React以,结尾
+        2. HTML5中key、value都不加引号
+           React中属于JavaScript对象，key的名字不能出现"-"，需要使用驼峰命名法。如果value为字符串，需要加引号
+        3. HTML5中，value如果是数字，需要带单位
+           React中不需要带单位
+
+        注意：在React中使用选择器样式设置组件样式时，属性名不能使用class,需要使用className替换，类似的：使用htmlFor替换for
+     */
+    var ShowMessage = React.createClass({
+        render: function () {
+            return (
+                /*内联样式：设置背景颜色，边框大小，边框颜色*/
+                /*这里有两个大括号，里面的大括号表示对象，外面的大括号表示JSX语法*/
+                <div style={{backgroundColor:"Yellow", borderWidth:5, borderColor:"black", borderStyle:"solid"}}>
+                    /*对象样式：设置背景颜色、字体颜色*/
+                    <h1 style={hStyle}>{this.props.firstRow}</h1>
+                    /*选择器样式：设置字体大小*/
+                    <p className="pStyle">{this.props.secondRow}</p>
+                </div>
+            );
+        }
+    });
+
+    //创建设置h1样式对象
+    var hStyle = {
+        backgroundColor:"green",
+        color:"red"
+    }
+
+    ReactDOM.render(
+        <ShowMessage firstRow="你好" secondRow="React"/>,
+        document.getElementById("container")
+    )
 </script>
 </html>
