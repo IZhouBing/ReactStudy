@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--react.js是react的核心库-->
+    <script src="../build/react.js" charset="utf-8"></script>
+    <!--react-dom.js的作用是提供与DOM相关的功能-->
+    <script src="../build/react-dom.js" charset="utf-8"></script>
+    <!--browser.min.js的作用是将JSX语法转换为JavaScript语法-->
+    <script src="../build/browser.min.js" charset="utf-8"></script>
+</head>
+<body>
+<!--React渲染的模板内容会插入到这个DOM节点中，作为一个容器-->
+<div id="container"></div>
+</body>
+<!--我们做React开发时，其实是用JSX语法来开发的-->
+<!--在React开发中，使用JSX,跟JavaScript不兼容，在使用JSX的地方，要设置type:text/babel-->
+<!--babel是一个转换编译器，ES6转成可以在浏览器中运行的代码-->
+<script type="text/babel">
+    //在此处编写React代码
+    /*
+      props,state
+      props是组件自身的属性,一般用于嵌套的内外层组件中,负责传递信息(通常是由父层组件向子层组件传递)
+      注意:props对象中的属性与组件的属性是一一对应的,不要直接去修改props中属性的值
+     */
+
+    /*
+      思路:
+      1. 给WebShow设置两个属性,wname和wlink
+      2. WebShow的props对象增加了两个属性值
+      3. WebName从WebShow的props对象中获取wname的值,既网站的名称
+      4. WebLink同理
+     */
+
+    //定义WebName
+    var WebName = React.createClass({
+        render: function () {
+            return <h1>{this.props.webname}</h1>;
+        }
+    });
+    //定义WebLink
+    var WebLink = React.createClass({
+        render: function () {
+            return <a href="http://www.baidu.com">{this.props.weblink}</a>
+        }
+    });
+    //定义WebShow
+    var WebShow = React.createClass({
+        render: function () {
+            return (
+                <div>
+                    <WebName webname={this.props.wname}/>
+                    <WebLink weblink={this.props.wlink}/>
+                </div>
+            );
+        }
+    });
+    //渲染
+    ReactDOM.render(
+        <WebShow wname='Hello zhouBing' wlink='http://www.baidu.com'/>,
+        document.getElementById('container')
+    )
+</script>
+</html>
