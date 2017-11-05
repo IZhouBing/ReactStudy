@@ -103,12 +103,12 @@
       this.props.children其实也是一种传值,只不过this.props主要传的是属性的值,this.props.children主要传的是子节点,只是传值的内容不一样
      */
 
-    var ListComponent = React.createClass({
+    /*var ListComponent = React.createClass({
         render: function () {
             return (
                 <ul>
                     {
-                        /*
+                        /!*
                             列表项数量以及内容不确定,在创建模板时才能确定
                             利用this.props.children从父组件获取需要展示的列表项内容
                             children代表组件的所有子节点
@@ -116,7 +116,7 @@
                             获取到列表项内容后,需要遍历children,逐项进行设置
                             使用React.Children.map方法
                             返回值:数组对象,这里数组中的元素是<li>
-                         */
+                         *!/
                         React.Children.map(this.props.children, function (child) {
                             //child是遍历得到的父组件的子节点
                             return <li>{child}</li>
@@ -135,6 +135,34 @@
             </ListComponent>
         ),
         document.getElementById('container')
+    );*/
+
+
+
+
+
+
+    /*
+      属性验证 propTypes
+
+      组件类的属性
+
+      用于验证组件实例的属性是否符合要求
+     */
+
+    var ShowTitle = React.createClass({
+        propTypes: {
+            // title数据类型必须为字符串
+            title: React.PropTypes.string.isRequired
+        },
+        render: function () {
+            return <h1>{this.props.title}</h1>
+        }
+    });
+
+    ReactDOM.render(
+      <ShowTitle title='ZhouBing'/>,
+      document.getElementById('container')
     );
 </script>
 </html>
