@@ -42,6 +42,9 @@
       document.getElementById("container")
     );*/
 
+
+
+
     /*
         设置组件的样式，讲解三种：
         1. 内联样式
@@ -58,15 +61,15 @@
 
         注意：在React中使用选择器样式设置组件样式时，属性名不能使用class,需要使用className替换，类似的：使用htmlFor替换for
      */
-    var ShowMessage = React.createClass({
+    /*var ShowMessage = React.createClass({
         render: function () {
             return (
-                /*内联样式：设置背景颜色，边框大小，边框颜色*/
-                /*这里有两个大括号，里面的大括号表示对象，外面的大括号表示JSX语法*/
+                /!*内联样式：设置背景颜色，边框大小，边框颜色*!/
+                /!*这里有两个大括号，里面的大括号表示对象，外面的大括号表示JSX语法*!/
                 <div style={{backgroundColor:"Yellow", borderWidth:5, borderColor:"black", borderStyle:"solid"}}>
-                    /*对象样式：设置背景颜色、字体颜色*/
+                    /!*对象样式：设置背景颜色、字体颜色*!/
                     <h1 style={hStyle}>{this.props.firstRow}</h1>
-                    /*选择器样式：设置字体大小*/
+                    /!*选择器样式：设置字体大小*!/
                     <p className="pStyle">{this.props.secondRow}</p>
                 </div>
             );
@@ -82,6 +85,49 @@
     ReactDOM.render(
         <ShowMessage firstRow="你好" secondRow="React"/>,
         document.getElementById("container")
+    )*/
+
+
+
+
+    /*
+        复合组件
+        也被称为组合组件，创建多个组件合成一个组件
+
+        定义一个组件WebShow，功能：输出网站的名字和网址，网址是一个可以点击的链接
+        分析：定义一个组件WebName负责输出网站名字，定义组件WebLink显示网站的网址，并且可以点击
+     */
+
+    // 定义WebName组件
+    var WebName = React.createClass({
+       render: function () {
+           return <h1>Hello ZhouBing</h1>
+       }
+    });
+
+    // 定义WebLink组件
+    var WebLink = React.createClass({
+       render: function () {
+           return <a href="http://www.baidu.com">http://www.baidu.com</a>
+       }
+    });
+
+    // 定义复合组件WebShow
+    var WebShow = React.createClass({
+       render: function () {
+           return (
+               <div>
+                   <WebName/>
+                   <WebLink/>
+               </div>
+           )
+       }
+    });
+
+    ReactDOM.render(
+        <WebShow/>,
+        document.getElementById("container")
     )
+
 </script>
 </html>
