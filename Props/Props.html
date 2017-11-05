@@ -150,7 +150,7 @@
       用于验证组件实例的属性是否符合要求
      */
 
-    var ShowTitle = React.createClass({
+    /*var ShowTitle = React.createClass({
         propTypes: {
             // title数据类型必须为字符串
             title: React.PropTypes.string.isRequired
@@ -163,6 +163,33 @@
     ReactDOM.render(
       <ShowTitle title='ZhouBing'/>,
       document.getElementById('container')
+    );*/
+
+
+
+
+
+
+    /*
+      设置组件属性的默认值
+
+      通过实现组件的getDefaultProps方法,对属性设置默认值
+     */
+
+    var MyTitle = React.createClass({
+        getDefaultProps: function () {
+          return {
+              title: 'Hello ZhouBing'
+          };
+        },
+        render: function () {
+            return <h1>{this.props.title}</h1>
+        }
+    });
+
+    ReactDOM.render(
+        <MyTitle/>,
+        document.getElementById('container')
     );
 </script>
 </html>

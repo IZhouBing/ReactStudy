@@ -30,8 +30,8 @@
       <file leaf-file-name="Props.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Props/Props.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="157" column="29" lean-forward="true" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
+            <state relative-caret-position="491">
+              <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -248,7 +248,7 @@
       <workItem from="1509246985363" duration="66000" />
       <workItem from="1509285376764" duration="3538000" />
       <workItem from="1509460516755" duration="2148000" />
-      <workItem from="1509855685181" duration="9535000" />
+      <workItem from="1509855685181" duration="9890000" />
     </task>
     <task id="LOCAL-00001" summary="备注一下之前的代码&#10;（1）创建React工程模板&#10;（2）完成第一个React小程序&#10;（3）简单介绍JSX语法">
       <created>1508944829234</created>
@@ -285,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509866067908</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="属性验证 propTypes">
+      <created>1509893153777</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1509893153777</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27225000" />
+    <option name="totallyTimeSpent" value="27580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -325,7 +332,8 @@
     <MESSAGE value="this.props" />
     <MESSAGE value="...this.props" />
     <MESSAGE value="this.props.children" />
-    <option name="LAST_COMMIT_MESSAGE" value="this.props.children" />
+    <MESSAGE value="属性验证 propTypes" />
+    <option name="LAST_COMMIT_MESSAGE" value="属性验证 propTypes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -561,8 +569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Props/Props.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="157" column="29" lean-forward="true" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
+        <state relative-caret-position="491">
+          <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
           <folding />
         </state>
       </provider>
