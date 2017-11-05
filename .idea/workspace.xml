@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b81cb84d-b96c-40ab-bc39-731fd1506e5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Props/Props.html" />
+    <list default="true" id="b81cb84d-b96c-40ab-bc39-731fd1506e5b" name="Default" comment="this.props">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Props/Props.html" afterPath="$PROJECT_DIR$/Props/Props.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="Props.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Props/Props.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="53" column="57" lean-forward="true" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+            <state relative-caret-position="427">
+              <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -248,7 +248,7 @@
       <workItem from="1509246985363" duration="66000" />
       <workItem from="1509285376764" duration="3538000" />
       <workItem from="1509460516755" duration="2148000" />
-      <workItem from="1509855685181" duration="3859000" />
+      <workItem from="1509855685181" duration="5059000" />
     </task>
     <task id="LOCAL-00001" summary="备注一下之前的代码&#10;（1）创建React工程模板&#10;（2）完成第一个React小程序&#10;（3）简单介绍JSX语法">
       <created>1508944829234</created>
@@ -264,11 +264,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509860325764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="this.props">
+      <created>1509861589561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1509861589561</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21549000" />
+    <option name="totallyTimeSpent" value="22749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -301,7 +308,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="备注一下之前的代码&#10;（1）创建React工程模板&#10;（2）完成第一个React小程序&#10;（3）简单介绍JSX语法" />
     <MESSAGE value="创建复合组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建复合组件" />
+    <MESSAGE value="this.props" />
+    <option name="LAST_COMMIT_MESSAGE" value="this.props" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -537,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Props/Props.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="53" column="57" lean-forward="true" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+        <state relative-caret-position="427">
+          <caret line="72" column="37" lean-forward="true" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
           <folding />
         </state>
       </provider>

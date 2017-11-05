@@ -33,6 +33,7 @@
       4. WebLink同理
      */
 
+    /*
     //定义WebName
     var WebName = React.createClass({
         render: function () {
@@ -60,6 +61,29 @@
     ReactDOM.render(
         <WebShow wname='Hello zhouBing' wlink='http://www.baidu.com'/>,
         document.getElementById('container')
-    )
+    )*/
+
+
+
+
+
+
+    /*
+      ...this.props
+      props提供的语法糖,可以将父组件中的全部属性都复制给子组件
+
+      需求:定义一个组件Link,Link组件中只包含一个<a>,我们不给<a>设置任何属性,所有属性全部从父组件复制得到
+     */
+
+    var Link = React.createClass({
+        render: function () {
+            return <a {...this.props}>{this.props.name}</a>
+        }
+    });
+
+    ReactDOM.render(
+        <Link href='http://www.baidu.com' name='Hello ZhouBing'/>,
+        document.getElementById('container')
+    );
 </script>
 </html>
