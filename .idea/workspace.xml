@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b81cb84d-b96c-40ab-bc39-731fd1506e5b" name="Default" comment="">
+    <list default="true" id="b81cb84d-b96c-40ab-bc39-731fd1506e5b" name="Default" comment="设置组件属性的默认值">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/State/State.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Props/Props.html" afterPath="$PROJECT_DIR$/Props/Props.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,18 +20,48 @@
       <file leaf-file-name="Component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Component/Component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="128" column="44" lean-forward="true" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="44" />
+            <state relative-caret-position="224">
+              <caret line="110" column="36" lean-forward="false" selection-start-line="110" selection-start-column="36" selection-end-line="110" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Props.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="State.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/State/State.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloReact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HelloReact/HelloReact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1728">
+              <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Props.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Props/Props.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+            <state relative-caret-position="6016">
+              <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,6 +79,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>render</find>
+      <find>样式</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,6 +93,7 @@
         <option value="$PROJECT_DIR$/HelloReact/HelloReact.html" />
         <option value="$PROJECT_DIR$/Component/Component.html" />
         <option value="$PROJECT_DIR$/Props/Props.html" />
+        <option value="$PROJECT_DIR$/State/State.html" />
       </list>
     </option>
   </component>
@@ -182,17 +214,7 @@
             <path>
               <item name="ReactStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReactStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloReact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReactStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="Props" type="462c0819:PsiDirectoryNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNative/ProjectStudy" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -248,7 +270,9 @@
       <workItem from="1509246985363" duration="66000" />
       <workItem from="1509285376764" duration="3538000" />
       <workItem from="1509460516755" duration="2148000" />
-      <workItem from="1509855685181" duration="9890000" />
+      <workItem from="1509855685181" duration="10329000" />
+      <workItem from="1510464445832" duration="8000" />
+      <workItem from="1510469103910" duration="1411000" />
     </task>
     <task id="LOCAL-00001" summary="备注一下之前的代码&#10;（1）创建React工程模板&#10;（2）完成第一个React小程序&#10;（3）简单介绍JSX语法">
       <created>1508944829234</created>
@@ -292,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509893153777</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="设置组件属性的默认值">
+      <created>1509893544353</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1509893544353</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27580000" />
+    <option name="totallyTimeSpent" value="29438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -333,18 +364,66 @@
     <MESSAGE value="...this.props" />
     <MESSAGE value="this.props.children" />
     <MESSAGE value="属性验证 propTypes" />
-    <option name="LAST_COMMIT_MESSAGE" value="属性验证 propTypes" />
+    <MESSAGE value="设置组件属性的默认值" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置组件属性的默认值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Component/Component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloReact/HelloReact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Props/Props.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6016">
+          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Component/Component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloReact/HelloReact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Props/Props.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6016">
+          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -368,7 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="8" column="64" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -392,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="8" column="64" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="8" column="64" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="8" column="64" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="8" column="64" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,34 +616,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Props/Props.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="6016">
+          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloReact/HelloReact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="1728">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Component/Component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="128" column="44" lean-forward="true" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="44" />
+        <state relative-caret-position="224">
+          <caret line="110" column="36" lean-forward="false" selection-start-line="110" selection-start-column="36" selection-end-line="110" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Props/Props.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+        <state relative-caret-position="326">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/State/State.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
